@@ -2,29 +2,8 @@
 <html lang="en">
 <head>
     <title> Rachel Dalby </title>
-    <style>
-        body {background-color: teal;}
-        h1   {color: white;}
-        h2	 {color: white;}
-        p    {color: white;}
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 20%;
-        }
-        hr {
-            align: center;
-            width: 80%;
-            color: white;
-        }
-        div{
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            width: 80%
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
     <div>
@@ -48,11 +27,10 @@
             $storedPhrases = array(
                 'Simplicity is the ultimate sophistication. -Leonardo Da Vinci',
                 'Art is never finished, only abandoned. -Leonardo Da Vinci',
-                'random thing 3',
-                'random thing 4',
-                'random thing 5',
-                'random thing 6',
-                'random thing 7 ',
+                'When you have eliminated all which is impossible, then whatever remains, however improbable, must be the truth. - Arthur Conan Doyle, The Case-Book of Sherlock Holmes',
+                'Come at once if convenient. If inconvenient, come all the same. - Arthur Conan Doyle, Sherlock Holmes: Adventure of the Creeping Man',
+                'Imagination is more important than knowledge. -Albert Einstein',
+                'No problem can be solved from the same level of consciousness that created it. -Albert Einstein',
             );
             echo $storedPhrases[rand(0,count($storedPhrases)-1)];
 

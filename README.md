@@ -1,6 +1,9 @@
 # hello-world
 + By: Rachel Dalby
-+ Production URL: dwarachel.me
++ Production URL: hello-world.dwarachel.me
 
 ## Outside Resources
-None
+quotes
+
++ google quotes
++ <href="www.goodreads.com">
